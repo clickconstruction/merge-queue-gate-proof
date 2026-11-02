@@ -1,0 +1,10 @@
+name: CI
+# A stub: the proof is about the sql-beds gate.
+on:
+  pull_request:
+  merge_group:
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo stub
