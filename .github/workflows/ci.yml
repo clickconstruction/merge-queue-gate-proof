@@ -7,4 +7,4 @@ jobs:
   checks:
     runs-on: ubuntu-latest
     steps:
-      - run: echo stub
+      - run: if [ "$GITHUB_EVENT_NAME" = merge_group ]; then sleep 600; fi; echo stub
