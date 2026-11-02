@@ -2,3 +2,4 @@
 
 A throwaway repo. It proved the SQL beds gate in a real merge queue on 2026-11-02, and it is safe to delete.
 Case 1: a docs-only change.
+Case 6: a docs-only change behind a red entry.
